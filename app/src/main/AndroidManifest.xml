@@ -26,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        /
         <activity android:name=".innerclass_leak.GoodHandlerActivity"/>
 
         <activity android:name=".layout_perfomance.LayoutPerformanceActivityGood">
@@ -36,6 +35,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".layout_perfomance.LayoutPerformanceActivityBad"/>
+        <activity android:name=".animator_leak.AnimatorActivity" android:label="Animator leak">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
