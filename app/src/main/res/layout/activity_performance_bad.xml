@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/open_optimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_optimal_btn"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/alarm_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/alarm_gray"
+                />
+
+            <ImageView
+                android:id="@+id/alarm_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/alarm_green"
+                />
+
+            <ImageView
+                android:id="@+id/alarm_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/alarm_red"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:id="@+id/android_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/android_gray"
+                />
+
+            <ImageView
+                android:id="@+id/android_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/android_green"
+                />
+
+            <ImageView
+                android:id="@+id/android_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/android_red"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:id="@+id/apple_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/apple_gray"
+                />
+
+            <ImageView
+                android:id="@+id/apple_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/apple_green"
+                />
+
+            <ImageView
+                android:id="@+id/apple_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/apple_red"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:id="@+id/barley_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/barley_gray"
+                />
+
+            <ImageView
+                android:id="@+id/barley_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/barley_green"
+                />
+
+            <ImageView
+                android:id="@+id/barley_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/barley_red"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:id="@+id/briefcase_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/briefcase_gray"
+                />
+
+            <ImageView
+                android:id="@+id/briefcase_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/briefcase_green"
+                />
+
+            <ImageView
+                android:id="@+id/briefcase_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/briefcase_red"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:id="@+id/bus_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/bus_gray"
+                />
+
+            <ImageView
+                android:id="@+id/bus_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/bus_green"
+                />
+
+            <ImageView
+                android:id="@+id/bus_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/bus_red"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:id="@+id/cake_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cake_gray"
+                />
+
+            <ImageView
+                android:id="@+id/cake_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cake_green"
+                />
+
+            <ImageView
+                android:id="@+id/cake_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cake_red"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:id="@+id/cart_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cart_gray"
+                />
+
+            <ImageView
+                android:id="@+id/cart_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cart_green"
+                />
+
+            <ImageView
+                android:id="@+id/cart_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cart_red"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/crown_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/crown_gray"
+                />
+
+            <ImageView
+                android:id="@+id/crown_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/crown_green"
+                />
+
+            <ImageView
+                android:id="@+id/crown_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/crown_red"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/cube_gray"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cube_gray"
+                />
+
+            <ImageView
+                android:id="@+id/cube_green"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cube_green"
+                />
+
+            <ImageView
+                android:id="@+id/cube_red"
+                style="@style/DefaultImageSize"
+                android:src="@drawable/cube_red"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

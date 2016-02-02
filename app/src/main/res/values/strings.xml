@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MemoryLeaksPractice</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="est_del_date_text">* Estimated Delivery Date includes the additional days to process your order prior to shipment. Estimated Delivery Dates based on credit card orders and member credits only.  Check or Money Orders will alter delivery dates. For full information on QVCs Shipping &amp; Handling, visit our &lt;b&gt;&lt;u&gt;Shipping Information&lt;/u&gt;&lt;/b&gt; page.</string>
+    <string name="open_not_optimal_btn">open not optimal</string>
+    <string name="open_optimal_btn">open optimal</string>
+</resources>
